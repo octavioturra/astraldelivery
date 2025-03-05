@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "astraldelivery",
+	"name": "square-violet-80cd",
 	"main": "src/index.js",
 	"compatibility_date": "2025-03-03",
 	"observability": {
