@@ -47,6 +47,7 @@ export default {
 };
 
 async function sendReply(phone_number_id, whatsapp_token, to, reply_message) {
+	console.log('sendReply', phone_number_id, whatsapp_token, to, reply_message);
 	const url = `https://graph.facebook.com/v12.0/${phone_number_id}/messages?access_token=${whatsapp_token}`;
 	const payload = {
 		messaging_product: 'whatsapp',
